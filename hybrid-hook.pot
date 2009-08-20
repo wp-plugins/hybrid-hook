@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hybrid Hook Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-20 03:28+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Justin Tadlock <justin@justintadlock.com>\n"
+"Language-Team:  <justin@justintadlock.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: settings-page.php:10
+#: settings.php:32
+msgid "Hybrid Hook Settings"
+msgstr ""
+
+#: settings-page.php:23
+#: settings-page.php:58
+#: settings-page.php:141
+#: settings-page.php:241
+#: settings-page.php:358
+#: settings-page.php:475
+msgid "Click to toggle"
+msgstr ""
+
+#: settings-page.php:25
+msgid "About Hybrid Hook"
+msgstr ""
+
+#: settings-page.php:32
+msgid "Plugin Description:"
+msgstr ""
+
+#: settings-page.php:37
+msgid "Plugin Version:"
+msgstr ""
+
+#: settings-page.php:42
+msgid "Hybrid Documentation:"
+msgstr ""
+
+#: settings-page.php:43
+msgid "Hybrid Documentation"
+msgstr ""
+
+#: settings-page.php:47
+msgid "Plugin Support:"
+msgstr ""
+
+#: settings-page.php:48
+msgid "Get support for this plugin"
+msgstr ""
+
+#: settings-page.php:48
+msgid "Visit the support forums."
+msgstr ""
+
+#: settings-page.php:60
+msgid "Container Action Hooks"
+msgstr ""
+
+#: settings-page.php:68
+msgid "Before <acronym title=\"Hypertext Markup Language\">HTML</acronym>:"
+msgstr ""
+
+#: settings-page.php:74
+#: settings-page.php:91
+#: settings-page.php:108
+#: settings-page.php:125
+#: settings-page.php:157
+#: settings-page.php:174
+#: settings-page.php:191
+#: settings-page.php:208
+#: settings-page.php:225
+#: settings-page.php:257
+#: settings-page.php:274
+#: settings-page.php:291
+#: settings-page.php:308
+#: settings-page.php:325
+#: settings-page.php:342
+#: settings-page.php:374
+#: settings-page.php:391
+#: settings-page.php:408
+#: settings-page.php:425
+#: settings-page.php:442
+#: settings-page.php:459
+#: settings-page.php:491
+#: settings-page.php:508
+#: settings-page.php:525
+msgid "Priority (<code>10</code> is default)."
+msgstr ""
+
+#: settings-page.php:77
+#: settings-page.php:94
+#: settings-page.php:111
+#: settings-page.php:128
+#: settings-page.php:160
+#: settings-page.php:177
+#: settings-page.php:194
+#: settings-page.php:211
+#: settings-page.php:228
+#: settings-page.php:260
+#: settings-page.php:277
+#: settings-page.php:294
+#: settings-page.php:311
+#: settings-page.php:328
+#: settings-page.php:345
+#: settings-page.php:377
+#: settings-page.php:394
+#: settings-page.php:411
+#: settings-page.php:428
+#: settings-page.php:445
+#: settings-page.php:462
+#: settings-page.php:494
+#: settings-page.php:511
+#: settings-page.php:528
+msgid "Execute <acronym title=\"Hypertext Preprocessor\">PHP</acronym>?"
+msgstr ""
+
+#: settings-page.php:85
+msgid "After <acronym title=\"Hypertext Markup Language\">HTML</acronym>:"
+msgstr ""
+
+#: settings-page.php:102
+msgid "Before Container:"
+msgstr ""
+
+#: settings-page.php:119
+msgid "After Container:"
+msgstr ""
+
+#: settings-page.php:143
+msgid "Header Action Hooks"
+msgstr ""
+
+#: settings-page.php:151
+msgid "Before Header:"
+msgstr ""
+
+#: settings-page.php:168
+msgid "Header:"
+msgstr ""
+
+#: settings-page.php:185
+msgid "After Header:"
+msgstr ""
+
+#: settings-page.php:202
+msgid "Before Page Nav:"
+msgstr ""
+
+#: settings-page.php:219
+msgid "After Page Nav:"
+msgstr ""
+
+#: settings-page.php:243
+msgid "Content Action Hooks"
+msgstr ""
+
+#: settings-page.php:251
+msgid "Before Content:"
+msgstr ""
+
+#: settings-page.php:268
+msgid "After Content:"
+msgstr ""
+
+#: settings-page.php:285
+msgid "Before Entry:"
+msgstr ""
+
+#: settings-page.php:302
+msgid "After Entry:"
+msgstr ""
+
+#: settings-page.php:319
+msgid "After Single:"
+msgstr ""
+
+#: settings-page.php:336
+msgid "After Page:"
+msgstr ""
+
+#: settings-page.php:360
+msgid "Widget Area Action Hooks"
+msgstr ""
+
+#: settings-page.php:368
+msgid "Before Primary:"
+msgstr ""
+
+#: settings-page.php:385
+msgid "After Primary:"
+msgstr ""
+
+#: settings-page.php:402
+msgid "Before Secondary:"
+msgstr ""
+
+#: settings-page.php:419
+msgid "After Secondary:"
+msgstr ""
+
+#: settings-page.php:436
+msgid "Before Subsidiary:"
+msgstr ""
+
+#: settings-page.php:453
+msgid "After Subsidiary:"
+msgstr ""
+
+#: settings-page.php:477
+msgid "Footer Action Hooks"
+msgstr ""
+
+#: settings-page.php:485
+msgid "Before Footer:"
+msgstr ""
+
+#: settings-page.php:502
+msgid "Footer:"
+msgstr ""
+
+#: settings-page.php:519
+msgid "After Footer:"
+msgstr ""
+
+#: settings-page.php:540
+msgid "Save Changes"
+msgstr ""
+
+#: settings.php:32
+msgid "Hybrid Hook"
+msgstr ""
+
