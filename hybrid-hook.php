@@ -3,7 +3,7 @@
  * Plugin Name: Hybrid Hook
  * Plugin URI: http://themehybrid.com/themes/hybrid/hybrid-hook
  * Description: Gives you easy access to the Hybrid theme's hooks straight from your WordPress admin.  You can add <acronym title="Hypertext Markup Language">HTML</acronym>, shortcodes, <acronym title="Hypertext Preprocessor">PHP</acronym>, and/or JavaScript without having to dig into any theme files.
- * Version: 0.3 Beta
+ * Version: 0.3
  * Author: Justin Tadlock
  * Author URI: http://justintadlock.com
  *
