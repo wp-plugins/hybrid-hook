@@ -1,10 +1,10 @@
 === Hybrid Hook ===
 Contributors: greenshady
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3687060
-Tags: custom, PHP, shortcodes, HTML
-Requires at least: 2.7
-Tested up to: 2.8.4
-Stable tag: 0.2
+Tags: custom, PHP, HTML
+Requires at least: 3.1
+Tested up to: 3.2
+Stable tag: 0.3
 
 Allows the addition of HTML, shortcodes, PHP, and/or JavaScript to the Hybrid theme's hooks from the WordPress admin.
 
@@ -12,7 +12,7 @@ Allows the addition of HTML, shortcodes, PHP, and/or JavaScript to the Hybrid th
 
 *Hybrid Hook* is a plugin that allows end users the ability to tap into the <a href="http://wordpress.org/extend/themes/hybrid" title="Hybrid WordPress theme framework">Hybrid theme's</a> extensive hook selection by providing a user interface in the WordPress admin for adding custom content.
 
-You **must** be using the <a href="http://wordpress.org/extend/themes/hybrid" title="Hybrid theme">Hybrid theme</a> for this plugin to work.
+You **must** be using at least version 0.9 of the <a href="http://wordpress.org/extend/themes/hybrid" title="Hybrid theme">Hybrid theme</a> for this plugin to work.  It will also not work with any other themes.
 
 **Features:**
 
@@ -34,7 +34,7 @@ More detailed instructions are included in the plugin's `readme.html` file.
 
 = Why was this plugin created? =
 
-This plugin was created so that end users and non-developers could take advantage of the Hybrid theme's extensive hook system.  It allows the input of XHTML, PHP, shortcodes, and JavaScript from the WordPress admin.  It's a way to work around having to learn how to use the WordPress plugin API and just add content anywhere.
+This plugin was created so that end users and non-developers could take advantage of the Hybrid theme's extensive hook system.  It allows the input of HTML, PHP, shortcodes, and JavaScript from the WordPress admin.  It's a way to work around having to learn how to use the WordPress plugin API and just add content anywhere.
 
 = How do I set it up? =
 
@@ -43,6 +43,21 @@ Under *Appearance > Hybrid Hook*, you can add custom code in individual textarea
 More detailed instructions are included in the plugin's `readme.html` file.
 
 == Changelog ==
+
+= Version 0.3 =
+
+* Bumped the plugin requirements up to WordPress 3.1 and Hybrid 0.9.
+* Revamped the entire plugin settings page interface to be (hopefully) more user friendly.
+* Removed the `hybrid_before_page_nav` setting.
+* Removed the `hybrid_after_page_nav` setting.
+* Removed the `hybrid_after_single` setting.
+* Removed the `hybrid_after_page` setting.
+* Added the `hybrid_before_primary_menu` setting.
+* Added the `hybrid_after_primary_menu` setting.
+* Added the `hybrid_after_singular` setting.
+* Created some additional meta boxes for donations and plugin support.
+* Security enhancements with saving code, making sure the `unfiltered_html` cap is checked.
+* Plugin users must now have the `edit_theme_options` cap to edit the settings.  This replaced the `edit_themes` cap.
 
 = Version 0.2 =
 
